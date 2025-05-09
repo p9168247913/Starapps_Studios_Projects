@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Custom Umbrella</title>
+        <link rel="stylesheet" href="styles.css">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+            rel="stylesheet">
+    </head>
+    <body>
+        <section class="umbrella-section">
+            <div class="umbrella-container">
+                <div class="umbrella-preview" id="umbrellaContainer">
+                    <div class="preview-content">
+                        <img id="umbrellaImage" src="./images/Blueumbrella.png"
+                            alt="Umbrella">
+                        <img id="logoPreview" src alt="Logo">
+                        <div class="preview-placeholder">
+                            <p>Logo will be added here</p>
+                        </div>
+                        <div id="loader" class="spinner"></div>
+                    </div>
+                </div>
+                <div class="umbrella-options">
+                    <h1>Custom Umbrella</h1>
+                    <div class="color-options">
+                        <span class="color-swatch" data-color="pink"
+                            style="background: #fa0707"></span>
+                        <span class="color-swatch" data-color="blue"
+                            style="background: #03a9f4"></span>
+                        <span class="color-swatch" data-color="yellow"
+                            style="background: rgb(246, 246, 78)"></span>
+                    </div>
+                    <div class="upload-instructions">
+                        <p class="customize-text"><strong>Customize your
+                                umbrella</strong></p>
+                        <p>Upload a logo for an instant preview.</p>
+                        <p class="file-requirements">.png and .jpg files only.
+                            Max file size is 5MB.</p>
+                    </div>
+                    <label class="upload-btn">
+                        <input type="file" id="logoUpload"
+                            accept="image/png, image/jpeg">
+                        <span>UPLOAD LOGO</span>
+                    </label>
+                </div>
+            </div>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>
