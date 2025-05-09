@@ -26,4 +26,3 @@ function min(fuel) {
 
 console.log(min([2, 1, 2, 3, 1]));
 console.log(min([1, 6, 3, 4, 5, 0, 0, 0, 6]));
-console.log(min([1, 0, 2]));
